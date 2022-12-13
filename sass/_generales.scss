@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: $color;
+}
+
+.sobre-mi{
+    margin-top: 55px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+footer{
+    padding: 20px;
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .icon{
+            width: 48px;
+            height: 48px;
+            margin: 20px;
+        }
+    }
+}
+
+
+
+.galeria{
+    .col-lg-4{
+    margin: 0;
+    padding: 25px;
+        img{
+        width: 100%;
+        }
+    }
+}
+
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+.my_mixin{
+    @include sizes (100%, 50px);
+    color: white;
+    text-align: center;
+}
+
+.title{
+    @include sizes(100%, 75px);
+    margin-top: 55px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        h1{
+        font-size: $size;
+        }
+}
+
+
+
+

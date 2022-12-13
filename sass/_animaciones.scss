@@ -1,0 +1,8 @@
+.scale{
+    transition: all 3s;
+}
+.facebook, .instagram, .youtube, .twitter{
+    &:hover{
+        transform: scale(1.25);
+    }
+}

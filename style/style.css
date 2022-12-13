@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+@media (min-width: 0px) {
+  .landscape {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .landscape {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  .portrait {
+    display: none;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.sobre-mi {
+  margin-top: 55px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 20px;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer .redes .icon {
+  width: 48px;
+  height: 48px;
+  margin: 20px;
+}
+
+.galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+.galeria .col-lg-4 img {
+  width: 100%;
+}
+
+.my_mixin {
+  height: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  height: 75px;
+  width: 100%;
+  margin-top: 55px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title h1 {
+  font-size: 30px;
+}
+
+.scale {
+  transition: all 3s;
+}
+
+.facebook:hover, .instagram:hover, .youtube:hover, .twitter:hover {
+  transform: scale(1.25);
+}/*# sourceMappingURL=style.css.map */
